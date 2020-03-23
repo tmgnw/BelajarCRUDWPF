@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace BelajarCRUDWPF.Properties
+namespace belajar_crud_wpf.Properties
 {
 
 

@@ -8,20 +8,21 @@
         public override void Up()
         {
             CreateTable(
-                "dbo.tbl_m_supplier",       //db dari table supplier
+                "dbo.Tb_M_Supplier",
                 c => new
                     {
                         Id = c.Int(nullable: false, identity: true),
-                        Nama = c.String(),
+                        Name = c.String(),
                         Address = c.String(),
+                        Email = c.String(),
                     })
-                .PrimaryKey(t => t.Id);     //primary key
+                .PrimaryKey(t => t.Id);
             
         }
         
         public override void Down()
         {
-            DropTable("dbo.tbl_m_supplier");
+            DropTable("dbo.Tb_M_Supplier");
         }
     }
 }

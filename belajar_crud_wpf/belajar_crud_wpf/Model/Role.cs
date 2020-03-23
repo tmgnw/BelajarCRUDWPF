@@ -8,21 +8,23 @@ using System.Threading.Tasks;
 
 namespace BelajarCRUDWPF.Model
 {
-    [Table("tbl_m_supplier")]       //table supplier
-    public class Supplier
+    [Table("Tb_M_Role")]
+    public class Role
     {
-        [Key]       //definisi primary key dan auto increment
+        [Key]
         public int Id { get; set; }
         public string Nama { get; set; }
-        public string Address { get; set; }
-        public Supplier()
-        { 
+
+
+        public Role()
+        {
 
         }
-        public Supplier(String nama, String address)
+
+        public Role(string nama)
         {
             this.Nama = nama;
-            this.Address = address;
+           
         }
     }
 }

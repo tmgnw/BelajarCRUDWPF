@@ -10,17 +10,16 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace BelajarCRUDWPF
+namespace belajar_crud_wpf
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for ItemWIndow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class ItemWIndow : Window
     {
-        public MainWindow()
+        public ItemWIndow()
         {
             InitializeComponent();
         }

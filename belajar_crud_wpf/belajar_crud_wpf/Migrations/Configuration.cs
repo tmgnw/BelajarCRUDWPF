@@ -5,14 +5,14 @@
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<BelajarCRUDWPF.MyContext.MyContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<BelajarCRUDWPF.MyContext.myContext>
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
         }
 
-        protected override void Seed(BelajarCRUDWPF.MyContext.MyContext context)
+        protected override void Seed(BelajarCRUDWPF.MyContext.myContext context)
         {
             //  This method will be called after migrating to the latest version.
 
